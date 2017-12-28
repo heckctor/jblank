@@ -1,0 +1,22 @@
+// // bower:scss
+// @import "bower_components/font-awesome/scss/font-awesome.scss";
+// @import "bower_components/css-hamburgers/_sass/hamburgers/hamburgers.scss";
+// @import "bower_components/sweetalert2/src/sweetalert2.scss";
+// // endbower
+ @import "../../bower_components/bulma/bulma";
+ @import "./components/index";
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+a{
+  cursor: pointer!important;
+}
+a[name]{
+  display: block;
+  //margin-bottom: $navbar-primary__height;
+}
+

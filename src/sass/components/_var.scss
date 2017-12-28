@@ -1,0 +1,91 @@
+// = Colors
+// -----------------------------
+
+$none:transparent;
+$blue:#00a1de;
+$green:#00C853;
+$yellow:#FBC02D;
+$red:mix(#b71c1c,indianred);
+
+$veniceBlue:#70808e;
+$silver:#d2d4d5;
+$gray:#6d6c70;
+
+//Overrides bulma
+$primary: $veniceBlue;
+$info: $blue;
+$success: $green;
+$warning: $yellow;
+$danger: $red;
+
+
+$secondary:$red;
+
+//fonts
+@font-face {
+    font-family: 'EucrosiaUPC';
+    src: url('../fonts/subset-EucrosiaUPC.eot');
+    src: url('../fonts/subset-EucrosiaUPC.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/subset-EucrosiaUPC.woff2') format('woff2'),
+        url('../fonts/subset-EucrosiaUPC.woff') format('woff'),
+        url('../fonts/subset-EucrosiaUPC.ttf') format('truetype'),
+        url('../fonts/subset-EucrosiaUPC.svg#EucrosiaUPC') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro Bold';
+    src: url('../fonts/subset-AvenirNextLTPro-Bold.eot');
+    src: url('../fonts/subset-AvenirNextLTPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/subset-AvenirNextLTPro-Bold.woff2') format('woff2'),
+        url('../fonts/subset-AvenirNextLTPro-Bold.woff') format('woff'),
+        url('../fonts/subset-AvenirNextLTPro-Bold.ttf') format('truetype'),
+        url('../fonts/subset-AvenirNextLTPro-Bold.svg#AvenirNextLTPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src: url('../fonts/subset-AvenirNextLTPro-Regular.eot');
+    src: url('../fonts/subset-AvenirNextLTPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/subset-AvenirNextLTPro-Regular.woff2') format('woff2'),
+        url('../fonts/subset-AvenirNextLTPro-Regular.woff') format('woff'),
+        url('../fonts/subset-AvenirNextLTPro-Regular.ttf') format('truetype'),
+        url('../fonts/subset-AvenirNextLTPro-Regular.svg#AvenirNextLTPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700');
+
+$eucrosia: 'EucrosiaUPC';
+$avenirBold: 'Avenir Next LT Pro Bold';
+$avenirRegular: 'Avenir Next LT Pro';
+$muli:'Muli', sans-serif;
+$family-serif: $eucrosia;
+$family-primary: $family-serif;
+$title:$avenirBold;
+$title-secondary:$avenirRegular;
+
+//Break points
+$s:320px;
+$m:768px;
+$l:1280px;
+$xl:1920px;
+
+//Path's
+$img:'../images';
+
+$navbar-primary__height:89px;
+
+:root{
+  --navbar-primary__height:89px;
+  --companyWidth:160px;
+}
+@media screen and (max-widht:640px){
+  :root{
+      --companyWidth:120px!important;
+  }
+}

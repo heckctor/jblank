@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+
+<extension version="2.5" type="template" client="site" method="upgrade">
+	
+	<name>jBlank</name><!-- name the template -->
+	<creationDate>28 Dic 2017</creationDate><!-- the date your are beginn to code -->
+	<author>Héktor Peña</author><!-- your name (oops, I repeat myself) -->
+	<copyright>Copyright © 2017 hektor.com.mx</copyright><!-- for who you are coding -->
+	<authorEmail>hola@hektor.com.mx</authorEmail><!-- your email address -->
+	<authorUrl>http://www.hektor.com.mx</authorUrl><!-- your url -->
+	<version>1.0.0</version><!-- give your template a number -->
+	<description><![CDATA[ 
+		<h1>jBlank Template en blanco para Joomla 3.x</h1>
+		<p>Creado por <a href="http://www.hektor.com.mx" target="_blank">Hektor Peña | hektor.com.mx</a>.</p>
+		<p>Basado en https://github.com/Bloggerschmidt/Blank</p>
+	]]></description><!-- change the description as you like -->
+	
+	<files><!-- no need to change -->
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>index.php</filename>
+		<filename>logic.php</filename>
+		<filename>offline.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>favicon.ico</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+	
+	<positions><!-- define the positions for modules here -->
+		<position>debug</position>
+	</positions>
+	
+</extension>
